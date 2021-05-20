@@ -9,6 +9,10 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      Detail.hasOne(models.Ausbuildung, {
+        foreignKey: 'ausbildungId',
+        onDelete: 'CASCADE',
+      });
     }
   }
   Detail.init(
@@ -16,9 +20,10 @@ module.exports = (sequelize, DataTypes) => {
       title: DataTypes.STRING,
       location: DataTypes.STRING,
       description: DataTypes.TEXT,
-      startYear: DataTypes.INTEGER,
-      endYear: DataTypes.INTEGER,
+      startyear: DataTypes.INTEGER,
+      endyear: DataTypes.INTEGER,
       numberOfMonths: DataTypes.INTEGER,
+      ausbildungId: DataTypes.INTEGER,
     },
     {
       sequelize,
