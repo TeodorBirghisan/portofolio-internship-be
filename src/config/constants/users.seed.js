@@ -1,5 +1,6 @@
 exports.users = [
   {
+    id: 1,
     lastName: 'Birghisan',
     firstName: 'Teodor-Octavian',
     email: 'birghisanteodor@yahoo.com',

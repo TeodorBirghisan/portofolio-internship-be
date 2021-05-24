@@ -1,5 +1,6 @@
 exports.details = [
   {
+    id: 1,
     title: 'Johannes Honterus',
     location: 'Brasov',
     description: 'Liceu pe limba germana',
