@@ -14,7 +14,6 @@ routes(app);
 app.listen(port, async () => {
   try {
     console.log(`Listening on port ${port}`);
-    //console.log(await db.Skill.findAll({ where: { userId: 1 } }));
   } catch (error) {
     console.error(error);
     throw new Error(error);
