@@ -24,7 +24,13 @@ router.post('/login', async (req, res) => {
       },
       process.env.SECRET
     );
-    res.json({ message: 'Login successful', token: jwtToken, success: true });
+    res.json({
+      email: correctUser.dataValues.email,
+      password: correctUser.dataValues.password,
+      message: 'Login successful',
+      token: jwtToken,
+      success: true,
+    });
   } catch (error) {
     console.log(error);
   }
