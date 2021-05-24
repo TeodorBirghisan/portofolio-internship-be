@@ -13,3 +13,12 @@ Content-Type:  application/json
     "address": "Str. Basarabia",
     "password": "1234"
 }
+
+###
+POST http://localhost:8080/login
+Content-Type:  application/json
+
+{
+    "email": "birghisanteodor@yahoo.com",
+    "password": "1234"
+}
