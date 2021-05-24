@@ -1,6 +1,9 @@
 const router = require('express').Router();
 const db = require('../models');
 const _ = require('lodash');
+const passport = require('passport');
+//TODO: add the line below as middleware for use of jwt auth
+//passport.authenticate('jwt', { session: false }),
 router.get('/:id', async (req, res) => {
   try {
     const { id } = _.get(req, 'params', null);
