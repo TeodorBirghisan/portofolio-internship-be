@@ -10,4 +10,15 @@ exports.details = [
     createdAt: new Date(),
     updatedAt: new Date(),
   },
+  {
+    id: 2,
+    title: 'Principal33',
+    location: 'Brasov',
+    description: 'Paid internship',
+    startyear: 2020,
+    endyear: 2021,
+    ausbildungId: 2,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
 ];
