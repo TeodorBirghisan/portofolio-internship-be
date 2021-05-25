@@ -25,6 +25,7 @@ router.post('/login', async (req, res) => {
       process.env.SECRET
     );
     res.json({
+      id: correctUser.id,
       email: correctUser.dataValues.email,
       password: correctUser.dataValues.password,
       message: 'Login successful',
