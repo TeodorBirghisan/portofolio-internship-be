@@ -18,6 +18,7 @@ module.exports = (sequelize, DataTypes) => {
   Detail.init(
     {
       title: DataTypes.STRING,
+      position: DataTypes.STRING,
       location: DataTypes.STRING,
       description: DataTypes.TEXT,
       startyear: DataTypes.INTEGER,
