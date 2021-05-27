@@ -2,6 +2,7 @@ exports.details = [
   {
     id: 1,
     title: 'Johannes Honterus',
+    position: 'elev',
     location: 'Brasov',
     description: 'Liceu pe limba germana',
     startyear: 2014,
@@ -13,6 +14,7 @@ exports.details = [
   {
     id: 2,
     title: 'Principal33',
+    position: 'student',
     location: 'Brasov',
     description: 'Paid internship',
     startyear: 2020,
