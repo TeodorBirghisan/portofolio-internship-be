@@ -8,7 +8,7 @@ exports.users = [
     occupation: 'Software Engineer',
     hobby: 'Backend aparent',
     telephone: '0727883745',
-    address: 'Str. Basarabia',
+    linkedIn: 'https://www.linkedin.com/in/teodor-birghisan-5585881b8/',
     password: '1234',
     createdAt: new Date(),
     updatedAt: new Date(),
