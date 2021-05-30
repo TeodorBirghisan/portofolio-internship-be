@@ -27,4 +27,32 @@ exports.ausbildungs = [
     createdAt: new Date(),
     updatedAt: new Date(),
   },
+  {
+    id: 5,
+    type: 'Facultate',
+    userId: 2,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    id: 6,
+    type: 'Educatie',
+    userId: 2,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    id: 7,
+    type: 'Internship',
+    userId: 2,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    id: 8,
+    type: 'Voluntariat',
+    userId: 2,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
 ];
