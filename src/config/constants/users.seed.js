@@ -14,4 +14,18 @@ exports.users = [
     createdAt: new Date(),
     updatedAt: new Date(),
   },
+  {
+    id: 2,
+    lastName: 'Puchianu',
+    firstName: 'Alexandra-Georgiana',
+    email: 'puchianu_alexandra@yahoo.com',
+    age: 22,
+    occupation: 'Software Developer',
+    hobby: 'Backend aparent',
+    telephone: '0749816360',
+    linkedIn: 'https://www.linkedin.com/in/alexandra-puchianu-433a381b4/',
+    password: '1234',
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
 ];
