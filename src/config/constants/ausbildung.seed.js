@@ -1,7 +1,7 @@
 exports.ausbildungs = [
   {
     id: 1,
-    type: 'Educatie',
+    type: 'Liceu',
     userId: 1,
     createdAt: new Date(),
     updatedAt: new Date(),
@@ -36,7 +36,7 @@ exports.ausbildungs = [
   },
   {
     id: 6,
-    type: 'Educatie',
+    type: 'Liceu',
     userId: 2,
     createdAt: new Date(),
     updatedAt: new Date(),
