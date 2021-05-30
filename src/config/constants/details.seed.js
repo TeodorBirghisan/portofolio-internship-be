@@ -39,4 +39,17 @@ exports.details = [
     createdAt: new Date(),
     updatedAt: new Date(),
   },
+  {
+    id: 4,
+    title: 'Facultatea de Matematica si Informatica',
+    position: 'Student',
+    location: 'Brasov',
+    description:
+      'Invatarea conceptelor din informatica, baza de date, OOP, algoritmi.',
+    startyear: 2018,
+    endyear: 2021,
+    ausbildungId: 4,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
 ];

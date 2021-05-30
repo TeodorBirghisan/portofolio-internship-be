@@ -20,4 +20,11 @@ exports.ausbildungs = [
     createdAt: new Date(),
     updatedAt: new Date(),
   },
+  {
+    id: 4,
+    type: 'Facultate',
+    userId: 1,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
 ];
