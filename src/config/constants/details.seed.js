@@ -108,7 +108,7 @@ exports.details = [
     position: 'Voluntar',
     location: 'Brasov',
     description:
-      'Participarea la diverse proiecte ce implica comunicarea cu participanti internationali si desvoltarea acestora.',
+      'Participarea la diverse proiecte ce implica comunicarea cu participanti internationali si dezvoltarea acestora.',
     numberOfMonths: 1,
     startyear: 2019,
     endyear: 2020,
