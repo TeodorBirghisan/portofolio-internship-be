@@ -29,4 +29,18 @@ exports.users = [
     createdAt: new Date(),
     updatedAt: new Date(),
   },
+  {
+    id: 3,
+    lastName: 'Radu',
+    firstName: 'Giulia',
+    email: 'radugiulia@yahoo.com',
+    age: 21,
+    occupation: 'Software Engineer',
+    hobby: 'Programare, inot & altele',
+    telephone: '0769070343',
+    linkedIn: 'https://www.linkedin.com/in/giulia-radu-b02313195/',
+    password: '1234',
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  }
 ];
