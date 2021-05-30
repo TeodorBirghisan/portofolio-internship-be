@@ -41,4 +41,18 @@ exports.ausbildungs = [
     createdAt: new Date(),
     updatedAt: new Date(),
   },
+  {
+    id: 7,
+    type: 'Work Experience',
+    userId: 3,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    id: 8,
+    type: 'Education',
+    userId: 3,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
 ];

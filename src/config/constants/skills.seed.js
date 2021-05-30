@@ -63,4 +63,37 @@ exports.skills = [
     createdAt: new Date(),
     updatedAt: new Date(),
   },
+  {
+    id: 9,
+    skill: 'React',
+    rating: 5,
+    userId: 3,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    id: 10,
+    skill: 'Javascript',
+    rating: 4,
+    userId: 3,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    id: 11,
+    skill: 'Css',
+    rating: 3,
+    userId: 3,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    id: 12,
+    skill: 'Java',
+    rating: 3,
+    userId: 3,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+
 ];
