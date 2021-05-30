@@ -21,7 +21,7 @@ exports.users = [
     email: 'puchianu_alexandra@yahoo.com',
     age: 22,
     occupation: 'Software Developer',
-    hobby: 'Backend aparent',
+    hobby: 'In timpul liber imi place sa descopar noi pasiuni. Printre hobby-urile mele se enumara si dansul, drumetiile, schiatul, mersul cu bicicleta si multe altele.',
     telephone: '0749816360',
     linkedIn: 'https://www.linkedin.com/in/alexandra-puchianu-433a381b4/',
     password: '1234',
