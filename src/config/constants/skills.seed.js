@@ -8,6 +8,14 @@ exports.skills = [
     updatedAt: new Date(),
   },
   {
+    id: 13,
+    skill: 'dans la bara',
+    rating: 5,
+    userId: 3,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
     id: 2,
     skill: 'c#',
     rating: 3,
@@ -95,5 +103,4 @@ exports.skills = [
     createdAt: new Date(),
     updatedAt: new Date(),
   },
-
 ];
